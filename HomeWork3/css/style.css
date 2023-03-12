@@ -1,17 +1,21 @@
 body {
   background: #aedea9;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #000000;
 }
 .italic-pink {
   font-style: italic;
   color: #fa20bd;
 }
+.list {
+  padding-left: 20px;
+}
+
 .head {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 24px;
-  color: #000000;
   width: 1495px;
   height: 72px;
   left: 10px;
@@ -19,36 +23,23 @@ body {
 }
 .title {
   box-sizing: border-box;
-  width: 324px;
-  height: 43px;
-  left: 7px;
-  top: 269px;
+  width: 313px;
+  height: 36px;
+  left: 6px;
+  top: 2px;
   background: #f48b8b;
-  border: 1px solid #000000;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  color: #000000;
-}
-.text {
-  font-family: "Inter";
-  font-style: normal;
-  color: #000000;
-  font-size: 20px;
 }
 .bold {
   font-weight: bold;
 }
 
 .foot-link {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #074c9e;
-  font-weight: bold;
   text-decoration: none;
 }
